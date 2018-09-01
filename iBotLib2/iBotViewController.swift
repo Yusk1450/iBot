@@ -71,6 +71,28 @@ open class iBotViewController: UIViewController
 	}
 	
 	/* -----------------------------------------------------
+	* 腕を動かす
+	------------------------------------------------------ */
+	public func moveArm(left:Double, right:Double) -> iBotViewController
+	{
+		BodyController.hand(left: left, right: right)
+		return self
+	}
+	
+	/* -----------------------------------------------------
+	* 腕を動かす
+	------------------------------------------------------ */
+	public func moveArm(left:Double, right:Double, delay:Double) -> iBotViewController
+	{
+		DispatchQueue.main.asyncAfter(deadline: .now() + delay)
+		{
+			BodyController.hand(left: left, right: right)
+		}
+		
+		return self
+	}
+	
+	/* -----------------------------------------------------
 	* iBotと会話する
 	------------------------------------------------------ */
 	public func talk(message:String)

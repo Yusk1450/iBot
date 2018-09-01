@@ -145,8 +145,8 @@ class BLEManager: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate
 	{
 		print("切断されました")
 		self.isConnected = false
-		self.connectedPeripheral = nil
-		self.connectedCharacteristic = nil
+//		self.connectedPeripheral = nil
+//		self.connectedCharacteristic = nil
 		self.delegate?.bleManagerDidDisconnectPeripheral(bleManager: self)
 	}
 	

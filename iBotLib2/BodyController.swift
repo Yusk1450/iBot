@@ -27,13 +27,16 @@ open class BodyController: NSObject
 	
 	public class func hand(left:Double, right:Double)
 	{
-		let bleManager = BLEManager.shared
-//		bleManager.writeValue(data: <#T##Data#>)
+		var data = "C".data(using: .ascii)
+		data?.append(Data(bytes: [1, UInt8(left * 50.0), UInt8(right * 50.0), 255]))			// 種類,右手,左手（終端文字:255）
+
+		if let data = data
+		{
+			BLEManager.shared.writeValue(data: data)
+		}
 	}
 	
-	public class func shake()
-	{
-		let bleManager = BLEManager.shared
-//		bleManager.writeValue(data: <#T##Data#>)
-	}
+//	public class func shake()
+//	{
+//	}
 }

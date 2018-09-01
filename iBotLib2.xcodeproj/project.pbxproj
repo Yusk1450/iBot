@@ -78,6 +78,9 @@
 		6A5951722137EA0D0075F30D /* UserLocalTalkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5951712137EA0D0075F30D /* UserLocalTalkEngine.swift */; };
 		6A5951742137EA4C0075F30D /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5951732137EA4C0075F30D /* URLSessionClient.swift */; };
 		6A5951762138B7BE0075F30D /* BodyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5951752138B7BE0075F30D /* BodyController.swift */; };
+		6A62FA5C2138F8CF0003D2E7 /* dislikekao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A62FA5B2138F8CF0003D2E7 /* dislikekao.png */; };
+		6AD051F62138C5B60057DAD1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051F42138C5B60057DAD1 /* Reachability.m */; };
+		6AD051F72138C5B60057DAD1 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD051F52138C5B60057DAD1 /* Reachability.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +157,9 @@
 		6A5951712137EA0D0075F30D /* UserLocalTalkEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocalTalkEngine.swift; sourceTree = "<group>"; };
 		6A5951732137EA4C0075F30D /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
 		6A5951752138B7BE0075F30D /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
+		6A62FA5B2138F8CF0003D2E7 /* dislikekao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislikekao.png; sourceTree = "<group>"; };
+		6AD051F42138C5B60057DAD1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6AD051F52138C5B60057DAD1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,7 @@
 		6A5950B22137B55E0075F30D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				6AD051F32138C5A70057DAD1 /* Reachability */,
 				6A5950AC2137AAEF0075F30D /* BLEManager.swift */,
 				6A5950AE2137B1B10075F30D /* AnimationView.swift */,
 				6A5951732137EA4C0075F30D /* URLSessionClient.swift */,
@@ -245,6 +252,7 @@
 		6A5950F12137C43A0075F30D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6A62FA5B2138F8CF0003D2E7 /* dislikekao.png */,
 				6A5950F22137C43A0075F30D /* Tap */,
 				6A5951212137C43A0075F30D /* kao-04.png */,
 				6A5951222137C43A0075F30D /* kao-red-04.png */,
@@ -328,6 +336,15 @@
 			path = TalkEngine;
 			sourceTree = "<group>";
 		};
+		6AD051F32138C5A70057DAD1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6AD051F52138C5B60057DAD1 /* Reachability.h */,
+				6AD051F42138C5B60057DAD1 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -336,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A59505F2136802D0075F30D /* iBotLib2.h in Headers */,
+				6AD051F72138C5B60057DAD1 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +435,7 @@
 				6A59514C2137C43A0075F30D /* touch-16.png in Resources */,
 				6A5951512137C43A0075F30D /* touch-19@2x.png in Resources */,
 				6A5951402137C43A0075F30D /* touch-22.png in Resources */,
+				6A62FA5C2138F8CF0003D2E7 /* dislikekao.png in Resources */,
 				6A5951422137C43A0075F30D /* touch-12.png in Resources */,
 				6A59514F2137C43A0075F30D /* touch-17.png in Resources */,
 				6A5951292137C43A0075F30D /* touch-12@2x.png in Resources */,
@@ -466,6 +485,7 @@
 				6A5950662136806B0075F30D /* iBotViewController.swift in Sources */,
 				6A5950AF2137B1B10075F30D /* AnimationView.swift in Sources */,
 				6A59516D2137E8460075F30D /* RandomSayFeature.swift in Sources */,
+				6AD051F62138C5B60057DAD1 /* Reachability.m in Sources */,
 				6A5951722137EA0D0075F30D /* UserLocalTalkEngine.swift in Sources */,
 				6A5950AD2137AAEF0075F30D /* BLEManager.swift in Sources */,
 				6A595069213680A80075F30D /* iBot.swift in Sources */,

@@ -72,6 +72,8 @@ extension iBotCore
 {
 	func bleManagerFoundPeripheral(bleManager: BLEManager, peripheral: CBPeripheral)
 	{
+		print(peripheral.identifier.uuidString)
+		
 		if (bleManager.isConnected)
 		{
 			return
@@ -98,6 +100,10 @@ extension iBotCore
 	
 	func bleManagerDidDisconnectPeripheral(bleManager: BLEManager)
 	{
+		if let peripheral = bleManager.connectedPeripheral
+		{
+			bleManager.connect(peripheral: peripheral)
+		}
 		print("ペリフェラル切断")
 	}
 	
