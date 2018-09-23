@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class iBotViewController: UIViewController
+open class iBotViewController: UIViewController, OSCServerDelegate
 {
 	private let speechRecognizer = SpeechRecognizer()						// 音声認識
 	private let speechSynthesizer = DefaultSynthesizer()					// 音声発声
@@ -22,6 +22,8 @@ open class iBotViewController: UIViewController
 	private var doubleTapGestureRecognizer:UITapGestureRecognizer?			// ダブルタップジェスチャ
 	
 	open var featureController = BotFeatureController()
+	
+	private var oscServer = OSCServer(address: "", port: 3001)				// OSC
 	
     override open func viewDidLoad()
 	{
@@ -44,6 +46,9 @@ open class iBotViewController: UIViewController
 		
 		self.setupGestureRecognizer()
 		self.setupFeatures()
+		
+		self.oscServer.delegate = self
+		self.oscServer.start()
     }
 	
 	/* -----------------------------------------------------
@@ -305,5 +310,17 @@ extension iBotViewController
 	open override var prefersStatusBarHidden: Bool
 	{
 		return true
+	}
+}
+
+extension iBotViewController
+{
+	public func didReceive(_ message: OSCMessage)
+	{
+		if let msg = message.arguments[0] as? String
+		{
+			print("RecognizedWord: "+msg)
+			self.talk(message: msg)
+		}
 	}
 }

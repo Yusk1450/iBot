@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A06C4552157AEAD007EDA53 /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C43C2157AEAD007EDA53 /* Timetag.swift */; };
+		6A06C4562157AEAD007EDA53 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C43D2157AEAD007EDA53 /* Blob.swift */; };
+		6A06C4572157AEAD007EDA53 /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C43E2157AEAD007EDA53 /* Impulse.swift */; };
+		6A06C4582157AEAD007EDA53 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C43F2157AEAD007EDA53 /* Int.swift */; };
+		6A06C4592157AEAD007EDA53 /* OSCTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4402157AEAD007EDA53 /* OSCTypeProtocol.swift */; };
+		6A06C45A2157AEAD007EDA53 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4412157AEAD007EDA53 /* String.swift */; };
+		6A06C45B2157AEAD007EDA53 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4422157AEAD007EDA53 /* Bool.swift */; };
+		6A06C45C2157AEAD007EDA53 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4432157AEAD007EDA53 /* Float.swift */; };
+		6A06C45D2157AEAD007EDA53 /* OSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4452157AEAD007EDA53 /* OSCMessage.swift */; };
+		6A06C45E2157AEAD007EDA53 /* OSCElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4462157AEAD007EDA53 /* OSCElementProtocol.swift */; };
+		6A06C45F2157AEAD007EDA53 /* OSCBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4472157AEAD007EDA53 /* OSCBundle.swift */; };
+		6A06C4602157AEAD007EDA53 /* OSCAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4492157AEAD007EDA53 /* OSCAddress.swift */; };
+		6A06C4612157AEAD007EDA53 /* OSCAddressPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C44A2157AEAD007EDA53 /* OSCAddressPattern.swift */; };
+		6A06C4622157AEAD007EDA53 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C44D2157AEAD007EDA53 /* yudpsocket.c */; };
+		6A06C4632157AEAD007EDA53 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C44E2157AEAD007EDA53 /* yudpsocket.swift */; };
+		6A06C4642157AEAD007EDA53 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C44F2157AEAD007EDA53 /* ysocket.swift */; };
+		6A06C4652157AEAD007EDA53 /* OSCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4502157AEAD007EDA53 /* OSCServer.swift */; };
+		6A06C4662157AEAD007EDA53 /* OSCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4512157AEAD007EDA53 /* OSCClient.swift */; };
+		6A06C4672157AEAD007EDA53 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4532157AEAD007EDA53 /* Timer.swift */; };
+		6A06C4682157AEAD007EDA53 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A06C4542157AEAD007EDA53 /* Extensions.swift */; };
 		6A59505F2136802D0075F30D /* iBotLib2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A59505D2136802D0075F30D /* iBotLib2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A5950662136806B0075F30D /* iBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5950652136806B0075F30D /* iBotViewController.swift */; };
 		6A595069213680A80075F30D /* iBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A595068213680A80075F30D /* iBot.swift */; };
@@ -79,11 +99,29 @@
 		6A5951742137EA4C0075F30D /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5951732137EA4C0075F30D /* URLSessionClient.swift */; };
 		6A5951762138B7BE0075F30D /* BodyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5951752138B7BE0075F30D /* BodyController.swift */; };
 		6A62FA5C2138F8CF0003D2E7 /* dislikekao.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A62FA5B2138F8CF0003D2E7 /* dislikekao.png */; };
-		6AD051F62138C5B60057DAD1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD051F42138C5B60057DAD1 /* Reachability.m */; };
-		6AD051F72138C5B60057DAD1 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD051F52138C5B60057DAD1 /* Reachability.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A06C43C2157AEAD007EDA53 /* Timetag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timetag.swift; sourceTree = "<group>"; };
+		6A06C43D2157AEAD007EDA53 /* Blob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blob.swift; sourceTree = "<group>"; };
+		6A06C43E2157AEAD007EDA53 /* Impulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Impulse.swift; sourceTree = "<group>"; };
+		6A06C43F2157AEAD007EDA53 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		6A06C4402157AEAD007EDA53 /* OSCTypeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCTypeProtocol.swift; sourceTree = "<group>"; };
+		6A06C4412157AEAD007EDA53 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6A06C4422157AEAD007EDA53 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		6A06C4432157AEAD007EDA53 /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		6A06C4452157AEAD007EDA53 /* OSCMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCMessage.swift; sourceTree = "<group>"; };
+		6A06C4462157AEAD007EDA53 /* OSCElementProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCElementProtocol.swift; sourceTree = "<group>"; };
+		6A06C4472157AEAD007EDA53 /* OSCBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCBundle.swift; sourceTree = "<group>"; };
+		6A06C4492157AEAD007EDA53 /* OSCAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAddress.swift; sourceTree = "<group>"; };
+		6A06C44A2157AEAD007EDA53 /* OSCAddressPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCAddressPattern.swift; sourceTree = "<group>"; };
+		6A06C44D2157AEAD007EDA53 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		6A06C44E2157AEAD007EDA53 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		6A06C44F2157AEAD007EDA53 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		6A06C4502157AEAD007EDA53 /* OSCServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCServer.swift; sourceTree = "<group>"; };
+		6A06C4512157AEAD007EDA53 /* OSCClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCClient.swift; sourceTree = "<group>"; };
+		6A06C4532157AEAD007EDA53 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		6A06C4542157AEAD007EDA53 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6A59505A2136802D0075F30D /* iBotLib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iBotLib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A59505D2136802D0075F30D /* iBotLib2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBotLib2.h; sourceTree = "<group>"; };
 		6A59505E2136802D0075F30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -158,8 +196,6 @@
 		6A5951732137EA4C0075F30D /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
 		6A5951752138B7BE0075F30D /* BodyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyController.swift; sourceTree = "<group>"; };
 		6A62FA5B2138F8CF0003D2E7 /* dislikekao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislikekao.png; sourceTree = "<group>"; };
-		6AD051F42138C5B60057DAD1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		6AD051F52138C5B60057DAD1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +211,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A06C43A2157AEAD007EDA53 /* SwiftOSC */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C43B2157AEAD007EDA53 /* Types */,
+				6A06C4442157AEAD007EDA53 /* Elements */,
+				6A06C4482157AEAD007EDA53 /* Addresses */,
+				6A06C44B2157AEAD007EDA53 /* Communication */,
+				6A06C4522157AEAD007EDA53 /* Helpers */,
+			);
+			path = SwiftOSC;
+			sourceTree = "<group>";
+		};
+		6A06C43B2157AEAD007EDA53 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C43C2157AEAD007EDA53 /* Timetag.swift */,
+				6A06C43D2157AEAD007EDA53 /* Blob.swift */,
+				6A06C43E2157AEAD007EDA53 /* Impulse.swift */,
+				6A06C43F2157AEAD007EDA53 /* Int.swift */,
+				6A06C4402157AEAD007EDA53 /* OSCTypeProtocol.swift */,
+				6A06C4412157AEAD007EDA53 /* String.swift */,
+				6A06C4422157AEAD007EDA53 /* Bool.swift */,
+				6A06C4432157AEAD007EDA53 /* Float.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		6A06C4442157AEAD007EDA53 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C4452157AEAD007EDA53 /* OSCMessage.swift */,
+				6A06C4462157AEAD007EDA53 /* OSCElementProtocol.swift */,
+				6A06C4472157AEAD007EDA53 /* OSCBundle.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		6A06C4482157AEAD007EDA53 /* Addresses */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C4492157AEAD007EDA53 /* OSCAddress.swift */,
+				6A06C44A2157AEAD007EDA53 /* OSCAddressPattern.swift */,
+			);
+			path = Addresses;
+			sourceTree = "<group>";
+		};
+		6A06C44B2157AEAD007EDA53 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C44C2157AEAD007EDA53 /* ysocket */,
+				6A06C4502157AEAD007EDA53 /* OSCServer.swift */,
+				6A06C4512157AEAD007EDA53 /* OSCClient.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		6A06C44C2157AEAD007EDA53 /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C44D2157AEAD007EDA53 /* yudpsocket.c */,
+				6A06C44E2157AEAD007EDA53 /* yudpsocket.swift */,
+				6A06C44F2157AEAD007EDA53 /* ysocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		6A06C4522157AEAD007EDA53 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6A06C4532157AEAD007EDA53 /* Timer.swift */,
+				6A06C4542157AEAD007EDA53 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		6A5950502136802D0075F30D = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +352,7 @@
 		6A5950B22137B55E0075F30D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				6A06C43A2157AEAD007EDA53 /* SwiftOSC */,
 				6AD051F32138C5A70057DAD1 /* Reachability */,
 				6A5950AC2137AAEF0075F30D /* BLEManager.swift */,
 				6A5950AE2137B1B10075F30D /* AnimationView.swift */,
@@ -339,8 +451,6 @@
 		6AD051F32138C5A70057DAD1 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				6AD051F52138C5B60057DAD1 /* Reachability.h */,
-				6AD051F42138C5B60057DAD1 /* Reachability.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -353,7 +463,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A59505F2136802D0075F30D /* iBotLib2.h in Headers */,
-				6AD051F72138C5B60057DAD1 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,21 +590,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A06C45C2157AEAD007EDA53 /* Float.swift in Sources */,
+				6A06C4592157AEAD007EDA53 /* OSCTypeProtocol.swift in Sources */,
 				6A5951682137D0E50075F30D /* DefaultSynthesizer.swift in Sources */,
+				6A06C45A2157AEAD007EDA53 /* String.swift in Sources */,
+				6A06C45F2157AEAD007EDA53 /* OSCBundle.swift in Sources */,
 				6A5950662136806B0075F30D /* iBotViewController.swift in Sources */,
 				6A5950AF2137B1B10075F30D /* AnimationView.swift in Sources */,
+				6A06C4652157AEAD007EDA53 /* OSCServer.swift in Sources */,
 				6A59516D2137E8460075F30D /* RandomSayFeature.swift in Sources */,
-				6AD051F62138C5B60057DAD1 /* Reachability.m in Sources */,
+				6A06C4672157AEAD007EDA53 /* Timer.swift in Sources */,
+				6A06C4562157AEAD007EDA53 /* Blob.swift in Sources */,
+				6A06C4552157AEAD007EDA53 /* Timetag.swift in Sources */,
+				6A06C4572157AEAD007EDA53 /* Impulse.swift in Sources */,
+				6A06C4612157AEAD007EDA53 /* OSCAddressPattern.swift in Sources */,
 				6A5951722137EA0D0075F30D /* UserLocalTalkEngine.swift in Sources */,
+				6A06C4662157AEAD007EDA53 /* OSCClient.swift in Sources */,
+				6A06C4602157AEAD007EDA53 /* OSCAddress.swift in Sources */,
 				6A5950AD2137AAEF0075F30D /* BLEManager.swift in Sources */,
 				6A595069213680A80075F30D /* iBot.swift in Sources */,
 				6A5950B12137B5550075F30D /* Face.swift in Sources */,
 				6A5951742137EA4C0075F30D /* URLSessionClient.swift in Sources */,
+				6A06C4642157AEAD007EDA53 /* ysocket.swift in Sources */,
 				6A5951762138B7BE0075F30D /* BodyController.swift in Sources */,
 				6A5951702137E90A0075F30D /* TalkEngine.swift in Sources */,
+				6A06C4622157AEAD007EDA53 /* yudpsocket.c in Sources */,
 				6A59516A2137E6CD0075F30D /* FeatureController.swift in Sources */,
+				6A06C45D2157AEAD007EDA53 /* OSCMessage.swift in Sources */,
+				6A06C4582157AEAD007EDA53 /* Int.swift in Sources */,
+				6A06C45E2157AEAD007EDA53 /* OSCElementProtocol.swift in Sources */,
 				6A5951662137D0BD0075F30D /* SpeechSynthesizer.swift in Sources */,
 				6A5950A9213683640075F30D /* SpeechRecognizer.swift in Sources */,
+				6A06C4682157AEAD007EDA53 /* Extensions.swift in Sources */,
+				6A06C4632157AEAD007EDA53 /* yudpsocket.swift in Sources */,
+				6A06C45B2157AEAD007EDA53 /* Bool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
